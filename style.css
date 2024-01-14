@@ -1,0 +1,46 @@
+.topBar {
+    height: 150px;
+    width: 100%;
+ /*   max-width: 100%;*/
+    padding: 0 15px;
+    background: black;
+    
+}
+.topBarImg{
+    display: flex;
+    justify-content: center;
+}
+
+.biogra{
+    display: flex;
+    height: 400;
+    width: auto;
+}
+.biograFoto{
+    display: flex;
+    float: left;
+}
+.selfInfo{
+    display: flex;
+    float: right;
+}
+
+.cover {
+    float : left;
+    margin : 10px;
+}
+
+.box {
+    
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid gray;
+     display: table-cell;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    vertical-align: middle;
+}
