@@ -53,19 +53,20 @@ table{
 
 .biogra{
     display: flex;
-    height: 400;
+    height: 400px;
     width: auto;
 }
 .biograFoto{
     display: flex;
     float: left;
     width: 25%;
+    border: 2px solid black;
 }
 .selfInfo{
     padding: 20px 40px; /*отступ вложенного текста от рамки*/
     background: #ffffff; /*фон рамки*/
     font-size: 20px; /*размер шрифта*/
-    border: 2px dashed #000000; /*размер форма и цвет рамки*/
+    border:  2px dashed #000000; /*размер форма и цвет рамки*/
     border-radius: 10px;
     box-shadow: 0 0 0 4px #ffffff, 2px 1px 6px 4px rgba(150, 128, 137,0.5); /*смещение размер и цвет тени рамки*/
     color: #000000;
@@ -88,7 +89,7 @@ table{
 /* у каждого элемента внешние отступы*/
 
 .box {
-    width: 25%;
+    width: 30%;
     margin: 5px 5px 5px 5px;
     box-sizing: border-box;
 }
