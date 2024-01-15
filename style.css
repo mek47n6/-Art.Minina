@@ -1,6 +1,6 @@
 .topBar {
     height: 150px;
-    width: 100%;
+    width: auto;
  /*   max-width: 100%;*/
     padding: 0 15px;
     background: black;
@@ -26,21 +26,25 @@
 }
 
 .cover {
+    display: flex;
     float : left;
     margin : 10px;
+    justify-content: space-between;
 }
 
 .box {
     
-    text-align: center;
+ /*   text-align: center;*/
     vertical-align: middle;
     border: 1px solid gray;
-     display: table-cell;
+    display: table-cell;
+    
 }
 
 .container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: auto;
     vertical-align: middle;
+    
 }
