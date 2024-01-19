@@ -88,10 +88,9 @@ table{
 
 /* у каждого элемента внешние отступы*/
 
-.box:{
+.box {
     display: flex;
-    position: relative;
-    overflow: hidden;
+
     box-sizing: border-box;
 }
 
@@ -99,7 +98,6 @@ table{
     
     height: 350px;
     transition: 0.5s all ease-in-out;
-    object-fit: cover;
     margin: 15px 15px 15px 15px;
 }
 .box:hover img {
