@@ -25,31 +25,36 @@
 <br>
         <div class="cover">
             <div class="box">
-                <img src = "IMG/GreenArt.jpeg">
+                <img src = "IMG/GreenArt.jpeg" onclick = "openModal ('IMG/GreenArt.jpeg', 'Баба с кудряшками')">
             </div>
             <div class="box">
-                <img src = "IMG/redWomenMilk.jpeg">
+                <img src = "IMG/redWomenMilk.jpeg"  onclick = "openModal ('IMG/redWomenMilk.jpeg', 'МолоШкооо... ом ном ном ном...')">
             </div>
             <div class="box">
-                <img src = "IMG/goldBlueWomen.jpeg">
+                <img src = "IMG/goldBlueWomen.jpeg"  onclick = "openModal ('IMG/goldBlueWomen.jpeg', 'СИСЯНДРЫЫЫ!!! Ты глупый...')">
             </div>
             <div class="box">
-                <img src = "IMG/afroWomen.jpeg">
+                <img src = "IMG/afroWomen.jpeg"  onclick = "openModal ('IMG/afroWomen.jpeg', 'Просто БАБА')">
             </div>
             <div class="box">
-                <img src = "IMG/bubleChup.jpg">
+                <img src = "IMG/bubleChup.jpg"  onclick = "openModal ('IMG/bubleChup.jpg', 'Йа чупочупсик О_о')">
             </div>
             <div class="box">
-                <img src = "IMG/bubleGum.jpg">
+                <img src = "IMG/bubleGum.jpg"  onclick = "openModal  ('IMG/bubleGum.jpg', ' ММММ!!! МММ!!!')">
             </div>
             <div class="box">
-                <img src = "IMG/yelouBlkDrs.jpg">
+                <img src = "IMG/yelouBlkDrs.jpg"  onclick = "openModal  ('IMG/yelouBlkDrs.jpg', 'Тоби пизда, тикай с городу!!!')">
             </div>
             <div class="box">
-                <img src = "IMG/blackWomGSun.jpeg">
+                <img src = "IMG/blackWomGSun.jpeg"  onclick = "openModal ('IMG/blackWomGSun.jpeg', 'Тяплооооо!!!')">
             </div>
         </div>
-            
+            <div id = "myModal" class = "modal" onclick = "closeModal()">
+            <span class = "close">&times;</span>
+            <img id = "modalImg" class = "modal-content">
+            <div id = "caption" class = "caption">
+            </div>
+        </div>
 
     </body>
 </html>
