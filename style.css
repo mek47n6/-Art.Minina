@@ -43,7 +43,7 @@ table{
 .topBar {
     height: 154px;
     width: auto;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 .topBarImg{
     display: flex;
@@ -60,15 +60,15 @@ table{
     display: flex;
     float: left;
     width: 25%;
-    border: 2px solid black;
+   /* border: 2px solid black;*/
 }
 .selfInfo{
-    padding: 20px 40px; /*отступ вложенного текста от рамки*/
+    padding: 5px 15px; /*отступ вложенного текста от рамки*/
     background: #ffffff; /*фон рамки*/
-    font-size: 20px; /*размер шрифта*/
-    border:  2px dashed #000000; /*размер форма и цвет рамки*/
+    font-size: 15px; /*размер шрифта*/
+    border:  2px dashed #ffffff; /*размер форма и цвет рамки*/
     border-radius: 10px;
-    box-shadow: 0 0 0 4px #ffffff, 2px 1px 6px 4px rgba(150, 128, 137,0.5); /*смещение размер и цвет тени рамки*/
+    box-shadow: 0 0 0 4px #ffffff, 2px 1px 6px 4px rgba(255, 255, 255, 0.5); /*смещение размер и цвет тени рамки*/
     color: #000000;
     font-family: 'Lato', sans-serif;
     display: flex;
