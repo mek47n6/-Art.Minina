@@ -70,7 +70,7 @@ table{
     border-radius: 10px;
     box-shadow: 0 0 0 4px #ffffff, 2px 1px 6px 4px rgba(255, 255, 255, 0.5); /*смещение размер и цвет тени рамки*/
     color: #000000;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato',  'Segoe UI';
     display: flex;
     float: right;
     width: 75%;
