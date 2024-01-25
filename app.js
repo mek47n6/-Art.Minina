@@ -23,8 +23,19 @@ function openModal (imageSrc, description) {
     modal.style.display = "block";
     modalImg.src = imageSrc;
     captionText.innerHTML = description;
-    }
+}
+
 function closeModal(){
     var modal = document.getElementById('myModal');
     modal.style.display = "none";
 }
+
+
+document.getElementById('expandBtn').addEventListener('click', function() {
+    var description = document.getElementsByClassName('description');
+    description[0].classList.toggle('open');
+    if (description[0].classList.contains('open')) {this.textContent = 'Свернуть';
+        } else {
+            this.textContent = 'Развернуть';
+        }
+})
