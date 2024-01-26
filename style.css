@@ -105,16 +105,31 @@ table {
   display: flex;
   flex-direction: column;
 }
-.price{
+
+
+
+.lotsArt{
   background-color: #ffffff;
   border: 1px solid darkgray;
   border-radius: 5px;
   padding: 5px;
   margin: 0 auto;
-  text-align: center;
   width: 100%;
  /* z-index: 100;    работает совместно .box:hover img*/
+  display: flex;
+  justify-content: space-around;
 }
+
+.sizeArt{
+  border: 1px solid darkgray;
+  display: flex;
+  text-align: left;
+ }
+.price{
+  display: flex;
+  text-align: center;
+}
+
 
  /*Скрыть модальное окно по умолчанию*/
 .modal {
