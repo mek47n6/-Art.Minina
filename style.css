@@ -87,6 +87,7 @@ table {
 .box {
   display: flex;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .box > img {
@@ -94,11 +95,28 @@ table {
   transition: 0.5s all ease-in-out;
   margin: 15px 15px 15px 15px;
 }
-.box:hover img {
-  transform: scale(1.5);
+
+/*цена под картину*/
+.product {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
+.price{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+ /*Скрыть модальное окно по умолчанию*/
 .modal {
-  /*Скрыть модальное окно по умолчанию*/
   display: none;
   position: fixed;
   top: 0;
@@ -141,7 +159,8 @@ table {
   display: block;
 }
 
-.scroll {
+.scroll { /* полоса прокрутки текста */ 
   height: 200px;
   overflow: auto;
 }
+
