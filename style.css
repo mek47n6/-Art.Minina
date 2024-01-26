@@ -86,8 +86,8 @@ table {
 
 .box {
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
-  z-index: 2;
 }
 
 .box > img {
@@ -95,24 +95,25 @@ table {
   transition: 0.5s all ease-in-out;
   margin: 15px 15px 15px 15px;
 }
+/*
+.box:hover img {
+  transform: scale(1.3);
+} */
 
 /*цена под картину*/
 .product {
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 .price{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
   background-color: #ffffff;
+  border: 1px solid darkgray;
+  border-radius: 5px;
   padding: 5px;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   width: 100%;
-  border-top: 1px solid #ccc;
+ /* z-index: 100;    работает совместно .box:hover img*/
 }
 
  /*Скрыть модальное окно по умолчанию*/
