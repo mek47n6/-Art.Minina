@@ -40,16 +40,23 @@ table {
 /* Мои стили */
 
 .topBar {
-  height: 154px;
+  height: 140px;
   width: auto;
+  display: flex;
   /*border: 2px solid black;*/
 }
 .topBarImg {
   display: flex;
   justify-content: center;
-  height: 150px;
+  width: 80%;
 }
-
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  font-size: 15px;
+  }
 .biogra {
   display: flex;
   height: 400px;
@@ -58,14 +65,15 @@ table {
 .biograFoto {
   display: flex;
   float: left;
-  width: 25%;
-  /* border: 2px solid black;*/
+  width: 400px;
+  /*border: 2px solid black; */
+  justify-content: center;
 }
 .selfInfo {
-  padding: 5px 5px; /*отступ вложенного текста от рамки*/
-  background: #ffffff; /*фон рамки*/
+  padding: 0px 5px; /*отступ вложенного текста от рамки*/
+  background: white; /*фон рамки*/
   font-size: 15px; /*размер шрифта*/
-  color: #000000;
+  color: black;
   font-family: "Lato", Segoe UI;
   display: flex;
   float: right;
@@ -102,35 +110,44 @@ table {
 
 /*цена под картину*/
 .product {
+  align-items: center;
+  width: 33%;
   display: flex;
   flex-direction: column;
 }
-
-
-
 .lotsArt{
-  background-color: #ffffff;
-  border: 1px solid darkgray;
+  background-color: #f1f1f1;
+  /* border: 1px solid rgb(0, 0, 0); */
   border-radius: 5px;
   padding: 5px;
   margin: 0 auto;
-  width: 100%;
+  width: 93%;
  /* z-index: 100;    работает совместно .box:hover img*/
   display: flex;
   justify-content: space-around;
 }
-
 .sizeArt{
-  border: 1px solid darkgray;
+  /* border: 1px solid rgb(0, 0, 0); */
   display: flex;
   text-align: left;
  }
 .price{
-  display: flex;
-  text-align: center;
+  color: rgba(1, 177, 1, 0.74);
+  font-weight: bold;
+ /* text-shadow:
+    1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    1px 1px 0 #000000; */
 }
-
-
+.sold{
+  color: rgb(202, 0, 7);
+  font-weight: normal;
+}
+.inWork {
+  color: #0006ad;
+  font-weight: normal;
+}
  /*Скрыть модальное окно по умолчанию*/
 .modal {
   display: none;
@@ -167,16 +184,21 @@ table {
   font-weight: bold;
   cursor: pointer;
 }
-
 .description p {
   display: none;
 }
 .description.open p {
   display: block;
+  color: #000000;
+  font-family: "Lato", Segoe UI;
 }
-
 .scroll { /* полоса прокрутки текста */ 
   height: 200px;
   overflow: auto;
+  
+}
+.mobile-image {
+  display: block;
+  width: 100%; /* занимать всю ширину блоков на мобильных */
 }
 
