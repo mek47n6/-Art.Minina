@@ -15,9 +15,9 @@ function closeModal(){
 
 // для кнопки сворачивания текста
 document.getElementById('expandBtn').addEventListener('click', function() {
-    var description = document.getElementsByClassName('description');
-    description[0].classList.toggle('open');
-    if (description[0].classList.contains('open')) {this.textContent = 'Свернуть';
+    var scroll = document.getElementsByClassName('scroll');
+    scroll[0].classList.toggle('open');
+    if (scroll[0].classList.contains('open')) {this.textContent = 'Свернуть';
         } else {
             this.textContent = 'Развернуть';
         }
